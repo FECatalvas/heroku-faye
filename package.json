@@ -22,7 +22,7 @@
   "homepage": "https://github.com/FECatalvas/heroku-faye#readme",
   "engines": {
     "node": "10.x"
- },
+  },
   "dependencies": {
     "package.json": "^2.0.1",
     "socket.io": "^2.3.0"

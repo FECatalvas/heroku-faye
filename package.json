@@ -24,7 +24,6 @@
     "node": "10.x"
   },
   "dependencies": {
-    "package.json": "^2.0.1",
-    "socket.io": "^2.3.0"
+    "package.json": "^2.0.1"
   }
 }

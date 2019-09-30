@@ -52,9 +52,9 @@ io.on('connection', (socket) => {
 
   });
 
-  // socket.on('disconnect', function() {
-  //     console.log('user disconnected')
-  //   });
+  socket.on('disconnect', function() {
+      io.sockets.emit("logout",socket.username)
+    });
 });
 
 http.listen(port, function () {
